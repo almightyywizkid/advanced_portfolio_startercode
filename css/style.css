@@ -1,4 +1,45 @@
-/* Nav Bar CSS */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+nav a {
+  padding: 0 19px;
+  margin: 0;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ nav a:hover { 
+    text-decoration: none;
+} 
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#tag { 
+  font-size: 30px;
+} 
+
+header h1 {
+  margin: 0;
+  font-family: Oswald, ;
+  color: black;
+  font-size: 30px;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  padding: 12px;
+}/* Nav Bar CSS */
 
 
 /* Header CSS */
